@@ -3,8 +3,8 @@ declare(strict_types=1);
 
 namespace Lcobucci\MyApi;
 
+use Chimera\Routing\Application;
 use Psr\Container\ContainerInterface;
-use Zend\Expressive\Application;
 use function assert;
 
 $container = require __DIR__ . '/../config/container.php';
