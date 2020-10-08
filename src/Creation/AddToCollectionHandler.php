@@ -13,10 +13,7 @@ use Lcobucci\MyApi\Books;
  */
 final class AddToCollectionHandler
 {
-    /**
-     * @var Books
-     */
-    private $collection;
+    private Books $collection;
 
     public function __construct(Books $collection)
     {

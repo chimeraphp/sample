@@ -12,15 +12,10 @@ use function array_values;
 
 final class JsonBooks implements Books
 {
-    /**
-     * @var string
-     */
-    private $filename;
+    private string $filename;
 
-    /**
-     * @var Book[]
-     */
-    private $items = [];
+    /** @var Book[] */
+    private array $items = [];
 
     public function __construct(string $filename)
     {
@@ -44,7 +39,7 @@ final class JsonBooks implements Books
     {
         $items = [];
 
-        foreach (json_decode($json, true) as $item) {
+        foreach (json_decode($json, true, 512, JSON_THROW_ON_ERROR) as $item) {
             $items[$item['id']] = $this->convertItemToObject($item);
         }
 
@@ -103,10 +98,9 @@ final class JsonBooks implements Books
 
         return array_filter(
             $items,
-            function (Book $book) use ($title, $author) {
-                return ($title && mb_stripos($book->getTitle(), $title) !== false)
-                    || ($author && mb_stripos($book->getAuthor(), $author) !== false);
-            }
+            static fn (Book $book): bool =>
+                ($title && mb_stripos($book->getTitle(), $title) !== false)
+                || ($author && mb_stripos($book->getAuthor(), $author) !== false)
         );
     }
 }

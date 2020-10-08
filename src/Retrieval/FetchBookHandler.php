@@ -13,10 +13,7 @@ use Lcobucci\MyApi\Books;
  */
 final class FetchBookHandler
 {
-    /**
-     * @var Books
-     */
-    private $books;
+    private Books $books;
 
     public function __construct(Books $books)
     {
