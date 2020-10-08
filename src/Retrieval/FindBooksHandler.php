@@ -12,10 +12,7 @@ use Lcobucci\MyApi\Books;
  */
 final class FindBooksHandler
 {
-    /**
-     * @var Books
-     */
-    private $books;
+    private Books $books;
 
     public function __construct(Books $books)
     {
