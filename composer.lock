@@ -537,51 +537,52 @@
         },
         {
             "name": "lcobucci/content-negotiation-middleware",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/content-negotiation-middleware.git",
-                "reference": "a90a8f20adb98c36c8d5d736947b12f5cf018e0d"
+                "reference": "a0ea2adf5067d92e594766c0174eccea24ad5d4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/content-negotiation-middleware/zipball/a90a8f20adb98c36c8d5d736947b12f5cf018e0d",
-                "reference": "a90a8f20adb98c36c8d5d736947b12f5cf018e0d",
+                "url": "https://api.github.com/repos/lcobucci/content-negotiation-middleware/zipball/a0ea2adf5067d92e594766c0174eccea24ad5d4a",
+                "reference": "a0ea2adf5067d92e594766c0174eccea24ad5d4a",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "fig/http-message-util": "^1.1",
-                "php": "^7.3",
+                "php": "^7.4 || ^8.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-server-middleware": "^1.0"
             },
             "require-dev": {
-                "infection/infection": "^0.14",
-                "jms/serializer": "^3.3",
-                "lcobucci/coding-standard": "^3.1",
+                "infection/infection": "^0.15",
+                "jms/serializer": "^3.5",
+                "laminas/laminas-diactoros": "^2.2",
+                "lcobucci/coding-standard": "^4.0",
                 "league/plates": "^3.3",
-                "middlewares/negotiation": "^1.1",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-deprecation-rules": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "phpunit/phpunit": "^8.4",
+                "middlewares/negotiation": "^2.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-deprecation-rules": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^9.0",
                 "squizlabs/php_codesniffer": "^3.5",
-                "twig/twig": "^2.12",
-                "zendframework/zend-diactoros": "^2.1"
+                "twig/twig": "^3.0"
             },
             "suggest": {
                 "jms/serializer": "For content formatting using a more flexible serializer",
+                "laminas/laminas-diactoros": "For concrete implementation of PSR-7",
                 "league/plates": "For content formatting using Plates as template engine",
                 "middlewares/negotiation": "For acceptable format identification",
-                "twig/twig": "For content formatting using Twig as template engine",
-                "zendframework/zend-diactoros": "For concrete implementation of PSR-7"
+                "twig/twig": "For content formatting using Twig as template engine"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1.x-dev"
+                    "dev-master": "2.2.x-dev"
                 }
             },
             "autoload": {
@@ -600,7 +601,7 @@
                 }
             ],
             "description": "A PSR-15 middleware to handle content negotiation",
-            "time": "2019-10-30T10:13:36+00:00"
+            "time": "2020-02-26T21:26:30+00:00"
         },
         {
             "name": "lcobucci/di-builder",
