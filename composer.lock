@@ -2769,16 +2769,16 @@
         },
         {
             "name": "zendframework/zend-expressive-router",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-expressive-router.git",
-                "reference": "072d6b0620f7e1e616cb60062425b4eedd1a0447"
+                "reference": "e76e6abd277c73268d27d92f7b385991e86488b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-expressive-router/zipball/072d6b0620f7e1e616cb60062425b4eedd1a0447",
-                "reference": "072d6b0620f7e1e616cb60062425b4eedd1a0447",
+                "url": "https://api.github.com/repos/zendframework/zend-expressive-router/zipball/e76e6abd277c73268d27d92f7b385991e86488b9",
+                "reference": "e76e6abd277c73268d27d92f7b385991e86488b9",
                 "shasum": ""
             },
             "require": {
@@ -2790,7 +2790,7 @@
             },
             "require-dev": {
                 "malukenho/docheader": "^0.1.6",
-                "phpunit/phpunit": "^7.0.2",
+                "phpunit/phpunit": "^7.5.16 || ^8.4.1",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "suggest": {
@@ -2829,7 +2829,7 @@
                 "zf"
             ],
             "abandoned": "mezzio/mezzio-router",
-            "time": "2018-06-05T15:28:00+00:00"
+            "time": "2019-10-16T20:06:55+00:00"
         },
         {
             "name": "zendframework/zend-expressive-template",
