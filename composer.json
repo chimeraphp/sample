@@ -16,7 +16,7 @@
         "chimera/routing-expressive": "^0.3",
         "lcobucci/di-builder": "^5.8",
         "middlewares/response-time": "^2.0",
-        "monolog/monolog": "^2.1"
+        "monolog/monolog": "^2.2"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master"
