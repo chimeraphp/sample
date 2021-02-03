@@ -134,12 +134,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/di-symfony.git",
-                "reference": "0c95893a38b43a016f3feec180f525b51e40348e"
+                "reference": "21b5e9dfdb70e3391f7900c94bb94fa5f849c5ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/0c95893a38b43a016f3feec180f525b51e40348e",
-                "reference": "0c95893a38b43a016f3feec180f525b51e40348e",
+                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/21b5e9dfdb70e3391f7900c94bb94fa5f849c5ba",
+                "reference": "21b5e9dfdb70e3391f7900c94bb94fa5f849c5ba",
                 "shasum": ""
             },
             "require": {
@@ -200,7 +200,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-02T15:01:42+00:00"
+            "time": "2021-02-03T07:20:47+00:00"
         },
         {
             "name": "chimera/foundation",
@@ -2654,7 +2654,7 @@
         },
         {
             "name": "symfony/config",
-            "version": "v5.2.2",
+            "version": "v5.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
