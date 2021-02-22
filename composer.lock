@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "866eb1f8c6ff7923096d5d21e16638b1",
+    "content-hash": "9f5e272016830bde59f313ae1f448b7b",
     "packages": [
         {
             "name": "brick/math",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/di-symfony.git",
-                "reference": "ef09ad31e2a1e1362b3452f52afc2e2336a0c330"
+                "reference": "6e640106c3381c271dc46d85f8013a8e9965230b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/ef09ad31e2a1e1362b3452f52afc2e2336a0c330",
-                "reference": "ef09ad31e2a1e1362b3452f52afc2e2336a0c330",
+                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/6e640106c3381c271dc46d85f8013a8e9965230b",
+                "reference": "6e640106c3381c271dc46d85f8013a8e9965230b",
                 "shasum": ""
             },
             "require": {
@@ -157,6 +157,7 @@
                 "chimera/serialization-jms": "^0.4.x-dev@dev",
                 "infection/infection": "^0.21",
                 "lcobucci/coding-standard": "^6.0",
+                "lcobucci/error-handling-middleware": "^1.2",
                 "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan": "^0.12",
                 "phpstan/phpstan-deprecation-rules": "^0.12",
@@ -168,7 +169,8 @@
                 "chimera/bus-tactician": "To use league/tactician as service bus",
                 "chimera/mapping": "To use annotations for mapping services",
                 "chimera/routing-mezzio": "To use mezzio/mezzio as routing application",
-                "chimera/serialization-jms": "To use jms/serializer to create messages and format content"
+                "chimera/serialization-jms": "To use jms/serializer to create messages and format content",
+                "lcobucci/error-handling-middleware": "To use lcobucci/error-handling-middleware as the error handler for your application"
             },
             "default-branch": true,
             "type": "library",
@@ -202,7 +204,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-22T20:52:11+00:00"
+            "time": "2021-02-22T22:47:04+00:00"
         },
         {
             "name": "chimera/foundation",
@@ -1268,6 +1270,78 @@
                 }
             ],
             "time": "2020-10-01T19:34:31+00:00"
+        },
+        {
+            "name": "lcobucci/error-handling-middleware",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/error-handling-middleware.git",
+                "reference": "1658966bab546586f8344d7c5ed70b91e853a444"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/error-handling-middleware/zipball/1658966bab546586f8344d7c5ed70b91e853a444",
+                "reference": "1658966bab546586f8344d7c5ed70b91e853a444",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "fig/http-message-util": "^1.1",
+                "lcobucci/content-negotiation-middleware": "^3.0",
+                "php": "^7.4 || ^8.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-server-middleware": "^1.0",
+                "psr/log": "^1.1"
+            },
+            "require-dev": {
+                "infection/infection": "^0.21",
+                "laminas/laminas-diactoros": "^2.5",
+                "lcobucci/coding-standard": "^6.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-deprecation-rules": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lcobucci\\ErrorHandling\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Cobucci",
+                    "email": "lcobucci@gmail.com"
+                }
+            ],
+            "description": "A PSR-15 middleware compatible with RFC 7807",
+            "keywords": [
+                "RFC-7807",
+                "error handling",
+                "psr-15"
+            ],
+            "support": {
+                "issues": "https://github.com/lcobucci/error-handling-middleware/issues",
+                "source": "https://github.com/lcobucci/error-handling-middleware/tree/1.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/lcobucci",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/lcobucci",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2021-02-22T21:04:27+00:00"
         },
         {
             "name": "league/tactician",
