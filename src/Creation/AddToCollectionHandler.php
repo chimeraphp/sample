@@ -8,8 +8,12 @@ use Lcobucci\MyApi\Book;
 use Lcobucci\MyApi\Books;
 
 /**
- * @Chimera\Routing\CreateEndpoint(path="/books", command=AddToCollection::class, name="book.create", redirectTo="book.fetch_one")
- * @Chimera\ServiceBus\CommandHandler(handles=AddToCollection::class)
+ * @Chimera\Routing\CreateEndpoint(
+ *     path="/books",
+ *     command=AddToCollection::class,
+ *     name="book.create",
+ *     redirectTo="book.fetch_one"
+ * )
  */
 final class AddToCollectionHandler
 {
@@ -20,6 +24,7 @@ final class AddToCollectionHandler
         $this->collection = $collection;
     }
 
+    /** @Chimera\ServiceBus\CommandHandler */
     public function handle(AddToCollection $command): void
     {
         $book = new Book(

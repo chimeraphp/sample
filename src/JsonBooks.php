@@ -9,6 +9,7 @@ use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
 use function array_filter;
 use function array_values;
+use function sprintf;
 
 final class JsonBooks implements Books
 {
@@ -81,11 +82,13 @@ final class JsonBooks implements Books
 
     public function find(UuidInterface $id): Book
     {
-        if (! isset($this->items[(string) $id])) {
-            throw new \OutOfBoundsException('Book not found');
+        $requestedId = $id->toString();
+
+        if (! isset($this->items[$requestedId])) {
+            throw new BookNotFound(sprintf('The book #%s could not be found in our records', $requestedId));
         }
 
-        return $this->items[(string) $id];
+        return $this->items[$requestedId];
     }
 
     public function findAll(?string $title = null, ?string $author = null): array
