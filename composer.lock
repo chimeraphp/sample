@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f5e272016830bde59f313ae1f448b7b",
+    "content-hash": "28553d7baa5351f4b51352b93abf1fe7",
     "packages": [
         {
             "name": "brick/math",
@@ -64,20 +64,20 @@
         },
         {
             "name": "chimera/bus-tactician",
-            "version": "0.4.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/bus-tactician.git",
-                "reference": "0134905077ad3be9367b4b188ba16fd4b994be63"
+                "reference": "9a50173225c8f2c44d05ceea4cec61c8dc0c1bf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/bus-tactician/zipball/0134905077ad3be9367b4b188ba16fd4b994be63",
-                "reference": "0134905077ad3be9367b4b188ba16fd4b994be63",
+                "url": "https://api.github.com/repos/chimeraphp/bus-tactician/zipball/9a50173225c8f2c44d05ceea4cec61c8dc0c1bf0",
+                "reference": "9a50173225c8f2c44d05ceea4cec61c8dc0c1bf0",
                 "shasum": ""
             },
             "require": {
-                "chimera/foundation": "^0.4@dev",
+                "chimera/foundation": "^0.4",
                 "league/tactician": "^1.1",
                 "php": "^7.4 || ^8.0",
                 "psr/container": "^1.0"
@@ -95,7 +95,6 @@
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -115,7 +114,7 @@
             "description": "Service bus adapter for league/tactician",
             "support": {
                 "issues": "https://github.com/chimeraphp/bus-tactician/issues",
-                "source": "https://github.com/chimeraphp/bus-tactician/tree/0.4.x"
+                "source": "https://github.com/chimeraphp/bus-tactician/tree/0.4.0"
             },
             "funding": [
                 {
@@ -127,34 +126,34 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-21T12:54:46+00:00"
+            "time": "2021-02-24T21:13:59+00:00"
         },
         {
             "name": "chimera/di-symfony",
-            "version": "0.4.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/di-symfony.git",
-                "reference": "6e640106c3381c271dc46d85f8013a8e9965230b"
+                "reference": "f2e6400a24de7de620aac441eefc1c6fe2881005"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/6e640106c3381c271dc46d85f8013a8e9965230b",
-                "reference": "6e640106c3381c271dc46d85f8013a8e9965230b",
+                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/f2e6400a24de7de620aac441eefc1c6fe2881005",
+                "reference": "f2e6400a24de7de620aac441eefc1c6fe2881005",
                 "shasum": ""
             },
             "require": {
-                "chimera/foundation": "^0.4.x-dev@dev",
-                "chimera/routing": "^0.4.x-dev@dev",
+                "chimera/bus-implementation": "^0.4",
+                "chimera/routing-implementation": "^0.4",
                 "ext-json": "*",
                 "lcobucci/di-builder": "^7.0",
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "chimera/bus-tactician": "^0.4.x-dev@dev",
-                "chimera/mapping": "^0.4.x-dev@dev",
-                "chimera/routing-mezzio": "^0.4.x-dev@dev",
-                "chimera/serialization-jms": "^0.4.x-dev@dev",
+                "chimera/bus-tactician": "^0.4",
+                "chimera/mapping": "^0.4",
+                "chimera/routing-mezzio": "^0.4",
+                "chimera/serialization-jms": "^0.4",
                 "infection/infection": "^0.21",
                 "lcobucci/coding-standard": "^6.0",
                 "lcobucci/error-handling-middleware": "^1.2",
@@ -172,7 +171,6 @@
                 "chimera/serialization-jms": "To use jms/serializer to create messages and format content",
                 "lcobucci/error-handling-middleware": "To use lcobucci/error-handling-middleware as the error handler for your application"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -192,7 +190,7 @@
             "description": "A set of compiler passes that connects all components together",
             "support": {
                 "issues": "https://github.com/chimeraphp/di-symfony/issues",
-                "source": "https://github.com/chimeraphp/di-symfony/tree/0.4.x"
+                "source": "https://github.com/chimeraphp/di-symfony/tree/0.4.0"
             },
             "funding": [
                 {
@@ -204,20 +202,20 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-22T22:47:04+00:00"
+            "time": "2021-02-24T21:41:07+00:00"
         },
         {
             "name": "chimera/foundation",
-            "version": "0.4.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "987f9719dda281b53126b8abc8c5311d7c280589"
+                "reference": "0b6c5f5324981b7c9beb159748f098f78f14d8b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/987f9719dda281b53126b8abc8c5311d7c280589",
-                "reference": "987f9719dda281b53126b8abc8c5311d7c280589",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/0b6c5f5324981b7c9beb159748f098f78f14d8b6",
+                "reference": "0b6c5f5324981b7c9beb159748f098f78f14d8b6",
                 "shasum": ""
             },
             "require": {
@@ -234,7 +232,6 @@
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -254,7 +251,7 @@
             "description": "Base structure to connect PSR-7 objects to command and query buses",
             "support": {
                 "issues": "https://github.com/chimeraphp/foundation/issues",
-                "source": "https://github.com/chimeraphp/foundation/tree/0.4.x"
+                "source": "https://github.com/chimeraphp/foundation/tree/0.4.0"
             },
             "funding": [
                 {
@@ -266,20 +263,20 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-07T13:24:52+00:00"
+            "time": "2021-02-23T20:58:10+00:00"
         },
         {
             "name": "chimera/mapping",
-            "version": "0.4.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/mapping.git",
-                "reference": "e836a4a4aff65063749611c49eda879ca72eb6cb"
+                "reference": "148a8170a2a0fd3075d2313a0cfba9fe69ff00da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/mapping/zipball/e836a4a4aff65063749611c49eda879ca72eb6cb",
-                "reference": "e836a4a4aff65063749611c49eda879ca72eb6cb",
+                "url": "https://api.github.com/repos/chimeraphp/mapping/zipball/148a8170a2a0fd3075d2313a0cfba9fe69ff00da",
+                "reference": "148a8170a2a0fd3075d2313a0cfba9fe69ff00da",
                 "shasum": ""
             },
             "require": {
@@ -296,7 +293,6 @@
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -316,7 +312,7 @@
             "description": "Useful annotations to configure the application layer of your software",
             "support": {
                 "issues": "https://github.com/chimeraphp/mapping/issues",
-                "source": "https://github.com/chimeraphp/mapping/tree/0.4.x"
+                "source": "https://github.com/chimeraphp/mapping/tree/0.4.0"
             },
             "funding": [
                 {
@@ -328,24 +324,24 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-21T22:15:34+00:00"
+            "time": "2021-02-23T21:23:16+00:00"
         },
         {
             "name": "chimera/routing",
-            "version": "0.4.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "c998d64f993c61eee1c9919c0cf39d08825cc813"
+                "reference": "b8653ff9415ab08ec6455a844835b5708831bcdf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/c998d64f993c61eee1c9919c0cf39d08825cc813",
-                "reference": "c998d64f993c61eee1c9919c0cf39d08825cc813",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/b8653ff9415ab08ec6455a844835b5708831bcdf",
+                "reference": "b8653ff9415ab08ec6455a844835b5708831bcdf",
                 "shasum": ""
             },
             "require": {
-                "chimera/foundation": "^0.4@dev",
+                "chimera/foundation": "^0.4",
                 "fig/http-message-util": "^1.1",
                 "lcobucci/content-negotiation-middleware": "^3.0",
                 "middlewares/negotiation": "^2.0",
@@ -366,7 +362,6 @@
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -386,7 +381,7 @@
             "description": "A collection of reusable PSR-15 components that connects Chimera to any framework",
             "support": {
                 "issues": "https://github.com/chimeraphp/routing/issues",
-                "source": "https://github.com/chimeraphp/routing/tree/0.4.x"
+                "source": "https://github.com/chimeraphp/routing/tree/0.4.0"
             },
             "funding": [
                 {
@@ -398,25 +393,25 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-07T13:33:26+00:00"
+            "time": "2021-02-24T20:42:19+00:00"
         },
         {
             "name": "chimera/routing-mezzio",
-            "version": "0.4.x-dev",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing-mezzio.git",
-                "reference": "b7dc855376228bf6909e4ecc19860002b84fde32"
+                "reference": "582b13c804bae7b73a94a3a9c9b0125f5dd3087d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing-mezzio/zipball/b7dc855376228bf6909e4ecc19860002b84fde32",
-                "reference": "b7dc855376228bf6909e4ecc19860002b84fde32",
+                "url": "https://api.github.com/repos/chimeraphp/routing-mezzio/zipball/582b13c804bae7b73a94a3a9c9b0125f5dd3087d",
+                "reference": "582b13c804bae7b73a94a3a9c9b0125f5dd3087d",
                 "shasum": ""
             },
             "require": {
-                "chimera/foundation": "^0.4@dev",
-                "chimera/routing": "^0.4@dev",
+                "chimera/foundation": "^0.4",
+                "chimera/routing": "^0.4",
                 "laminas/laminas-diactoros": "^2.5",
                 "mezzio/mezzio": "^3.3",
                 "mezzio/mezzio-fastroute": "^3.1",
@@ -441,7 +436,6 @@
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^9.5"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -461,7 +455,7 @@
             "description": "Laminas Mezzio implementation for chimera/routing",
             "support": {
                 "issues": "https://github.com/chimeraphp/routing-mezzio/issues",
-                "source": "https://github.com/chimeraphp/routing-mezzio/tree/0.4.x"
+                "source": "https://github.com/chimeraphp/routing-mezzio/tree/0.4.0"
             },
             "funding": [
                 {
@@ -473,7 +467,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-07T14:22:35+00:00"
+            "time": "2021-02-24T20:50:06+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -3902,12 +3896,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "chimera/bus-tactician": 20,
-        "chimera/di-symfony": 20,
-        "chimera/foundation": 20,
-        "chimera/mapping": 20,
-        "chimera/routing": 20,
-        "chimera/routing-mezzio": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
