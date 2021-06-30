@@ -1406,16 +1406,16 @@
         },
         {
             "name": "mezzio/mezzio",
-            "version": "3.5.0",
+            "version": "3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio.git",
-                "reference": "1941d51b6a29928f9da3328aba67d7bf8d9a4dc5"
+                "reference": "4c4ec0b7acb973cd19e18ca6b1e7a067681f9b09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio/zipball/1941d51b6a29928f9da3328aba67d7bf8d9a4dc5",
-                "reference": "1941d51b6a29928f9da3328aba67d7bf8d9a4dc5",
+                "url": "https://api.github.com/repos/mezzio/mezzio/zipball/4c4ec0b7acb973cd19e18ca6b1e7a067681f9b09",
+                "reference": "4c4ec0b7acb973cd19e18ca6b1e7a067681f9b09",
                 "shasum": ""
             },
             "require": {
@@ -1427,6 +1427,7 @@
                 "mezzio/mezzio-template": "^2.1.0",
                 "php": "^7.3||~8.0.0",
                 "psr/container": "^1.0",
+                "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0.1",
                 "psr/http-server-middleware": "^1.0",
                 "webmozart/assert": "^1.10"
@@ -1510,7 +1511,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-05-20T17:36:56+00:00"
+            "time": "2021-06-29T17:56:59+00:00"
         },
         {
             "name": "mezzio/mezzio-fastroute",
