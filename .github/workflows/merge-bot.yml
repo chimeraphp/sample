@@ -1,16 +1,19 @@
 name: Merge me!
 
 on:
-  check_suite:
+  workflow_run:
     types:
       - completed
+    workflows:
+      - 'Validate API behaviour'
 
 jobs:
   merge-me:
     name: Merge me!
     runs-on: ubuntu-latest
     steps:
-      - name: Merge me!
+      - if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        name: Merge me!
         uses: ridedott/merge-me-action@v2.9.23
         with:
           # Depending on branch protection rules, a  manually populated
@@ -26,3 +29,6 @@ jobs:
           # pushing to protected branches.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MERGE_METHOD: MERGE
+          ENABLE_GITHUB_API_PREVIEW: true
+          if: ${{ github.actor == 'lcobucci' }}
+          GITHUB_LOGIN: lcobucci
