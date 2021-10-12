@@ -1755,16 +1755,16 @@
         },
         {
             "name": "mezzio/mezzio-template",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-template.git",
-                "reference": "1f0e4805eb6ec8a9137932e94aa0c02896bc8280"
+                "reference": "82aa87190b2d20cfdd4fec1e8068833df07ca27e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-template/zipball/1f0e4805eb6ec8a9137932e94aa0c02896bc8280",
-                "reference": "1f0e4805eb6ec8a9137932e94aa0c02896bc8280",
+                "url": "https://api.github.com/repos/mezzio/mezzio-template/zipball/82aa87190b2d20cfdd4fec1e8068833df07ca27e",
+                "reference": "82aa87190b2d20cfdd4fec1e8068833df07ca27e",
                 "shasum": ""
             },
             "require": {
@@ -1776,7 +1776,9 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.2.0",
-                "phpunit/phpunit": "^9.3"
+                "phpunit/phpunit": "^9.4",
+                "psalm/plugin-phpunit": "^0.16.1",
+                "vimeo/psalm": "^4.8"
             },
             "suggest": {
                 "mezzio/mezzio-laminasviewrenderer": "^2.0 to use the laminas-view PhpRenderer template renderer",
@@ -1814,7 +1816,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-10-05T09:56:29+00:00"
+            "time": "2021-10-11T12:45:14+00:00"
         },
         {
             "name": "middlewares/negotiation",
