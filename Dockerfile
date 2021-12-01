@@ -1,4 +1,4 @@
-FROM php:7.4-alpine as base
+FROM php:8.0-alpine as base
 
 ENV APPLICATION_MODE=prod
 WORKDIR /opt/chimera/sample

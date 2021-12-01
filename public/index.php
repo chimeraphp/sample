@@ -10,7 +10,7 @@ use function assert;
 $container = require __DIR__ . '/../config/container.php';
 assert($container instanceof ContainerInterface);
 
-$app = $container->get('my-api.http');
+$app = $container->get(Application::class);
 assert($app instanceof Application);
 
 $app->run();
