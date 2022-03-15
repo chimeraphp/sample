@@ -10,11 +10,8 @@ use Lcobucci\MyApi\Books;
 /** @Chimera\Routing\FetchEndpoint(path="/books/{id}", query=FetchBook::class, name="book.fetch_one") */
 final class FetchBookHandler
 {
-    private Books $books;
-
-    public function __construct(Books $books)
+    public function __construct(private readonly Books $books)
     {
-        $this->books = $books;
     }
 
     /** @Chimera\ServiceBus\QueryHandler */

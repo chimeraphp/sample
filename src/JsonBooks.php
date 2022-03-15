@@ -10,19 +10,16 @@ use Ramsey\Uuid\UuidInterface;
 use function array_filter;
 use function array_values;
 use function sprintf;
+use const JSON_THROW_ON_ERROR;
 
 final class JsonBooks implements Books
 {
-    private string $filename;
-
     /** @var Book[] */
     private array $items = [];
 
-    public function __construct(string $filename)
+    public function __construct(private readonly string $filename)
     {
-        $this->filename = $filename;
-
-        if (file_exists($filename)) {
+        if (file_exists($this->filename)) {
             $this->items = $this->fromContent(file_get_contents($this->filename));
         }
     }
@@ -54,7 +51,7 @@ final class JsonBooks implements Books
             array_values($this->items)
         );
 
-        return json_encode($data);
+        return json_encode($data, JSON_THROW_ON_ERROR);
     }
 
     private function convertItemToObject(array $item): Book
