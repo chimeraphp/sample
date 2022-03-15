@@ -8,13 +8,10 @@ use Chimera\ServiceBus\ReadModelConverter\Query;
 
 final class FindBooks implements Query
 {
-    public ?string $title;
-    public ?string $author;
-
-    private function __construct(?string $title, ?string $author)
-    {
-        $this->author = $author;
-        $this->title  = $title;
+    private function __construct(
+        public readonly ?string $title,
+        public readonly ?string $author,
+    ) {
     }
 
     public static function fromInput(Input $input): self
@@ -29,6 +26,6 @@ final class FindBooks implements Query
 
     public function conversionCallback(): callable
     {
-        return [BookDto::class, 'fromEntity'];
+        return BookDto::fromEntity(...);
     }
 }
