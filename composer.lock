@@ -68,32 +68,32 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/bus-tactician.git",
-                "reference": "819b11cf4cef5de255474913c91fe81dc0247435"
+                "reference": "8b2f5102667bcfa8dac314105b800b49d9cfbb60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/bus-tactician/zipball/819b11cf4cef5de255474913c91fe81dc0247435",
-                "reference": "819b11cf4cef5de255474913c91fe81dc0247435",
+                "url": "https://api.github.com/repos/chimeraphp/bus-tactician/zipball/8b2f5102667bcfa8dac314105b800b49d9cfbb60",
+                "reference": "8b2f5102667bcfa8dac314105b800b49d9cfbb60",
                 "shasum": ""
             },
             "require": {
                 "chimera/foundation": "^1.0.x-dev",
                 "league/tactician": "^1.1",
-                "php": "^8.1",
+                "php": "~8.1.0 || ~8.2.0",
                 "psr/container": "^2.0"
             },
             "provide": {
                 "chimera/bus-implementation": "1.0.0"
             },
             "require-dev": {
-                "infection/infection": "^0.26",
-                "lcobucci/coding-standard": "^8.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.4",
+                "infection/infection": "^0.26.19",
+                "lcobucci/coding-standard": "^9.0",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.8",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpunit/phpunit": "^10.0.16"
             },
             "default-branch": true,
             "type": "library",
@@ -127,7 +127,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-15T10:12:41+00:00"
+            "time": "2023-03-19T20:00:30+00:00"
         },
         {
             "name": "chimera/di-symfony",
@@ -135,12 +135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/di-symfony.git",
-                "reference": "3e4128f6daf0ebf5e69551d9fccaf9a458e53ce7"
+                "reference": "901ff09b999672e4db04506940027b6cdee77432"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/3e4128f6daf0ebf5e69551d9fccaf9a458e53ce7",
-                "reference": "3e4128f6daf0ebf5e69551d9fccaf9a458e53ce7",
+                "url": "https://api.github.com/repos/chimeraphp/di-symfony/zipball/901ff09b999672e4db04506940027b6cdee77432",
+                "reference": "901ff09b999672e4db04506940027b6cdee77432",
                 "shasum": ""
             },
             "require": {
@@ -149,25 +149,25 @@
                 "chimera/routing": "^1.0.x-dev",
                 "chimera/routing-implementation": "^1.0",
                 "lcobucci/di-builder": "^7.2",
-                "php": "^8.1"
+                "php": "~8.1.0 || ~8.2.0"
             },
             "conflict": {
                 "lcobucci/di-builder": "7.2.0"
             },
             "require-dev": {
                 "chimera/bus-tactician": "^1.0.x-dev",
-                "chimera/mapping": "^0.5.x-dev",
+                "chimera/mapping": "^1.0.x-dev",
                 "chimera/routing-mezzio": "^1.0.x-dev",
                 "chimera/serialization-jms": "^1.0.x-dev",
                 "infection/infection": "^0.26",
-                "lcobucci/coding-standard": "^8.0",
+                "lcobucci/coding-standard": "^9.0",
                 "lcobucci/error-handling-middleware": "^1.4",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.4",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.8",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpunit/phpunit": "^10.0.16"
             },
             "suggest": {
                 "chimera/bus-tactician": "To use league/tactician as service bus",
@@ -208,7 +208,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-15T10:40:11+00:00"
+            "time": "2023-03-19T22:17:43+00:00"
         },
         {
             "name": "chimera/foundation",
@@ -216,27 +216,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/foundation.git",
-                "reference": "81e914a81fc1072f8475a628c9fa84c649fd43bb"
+                "reference": "97f836fa70c0b245d408a742ae897f5069083f23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/81e914a81fc1072f8475a628c9fa84c649fd43bb",
-                "reference": "81e914a81fc1072f8475a628c9fa84c649fd43bb",
+                "url": "https://api.github.com/repos/chimeraphp/foundation/zipball/97f836fa70c0b245d408a742ae897f5069083f23",
+                "reference": "97f836fa70c0b245d408a742ae897f5069083f23",
                 "shasum": ""
             },
             "require": {
-                "php": "^8.1",
-                "ramsey/uuid": "^4.2"
+                "php": "~8.1.0 || ~8.2.0",
+                "ramsey/uuid": "^4.5"
             },
             "require-dev": {
-                "infection/infection": "^0.26",
-                "lcobucci/coding-standard": "^8.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.4",
+                "infection/infection": "^0.26.19",
+                "lcobucci/coding-standard": "^9.0",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.8",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpunit/phpunit": "^10.0.16"
             },
             "default-branch": true,
             "type": "library",
@@ -270,7 +270,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-14T18:11:15+00:00"
+            "time": "2023-03-19T19:39:48+00:00"
         },
         {
             "name": "chimera/mapping",
@@ -278,12 +278,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/mapping.git",
-                "reference": "40cc688787273ff2aff8cbd09ff94323f826f78f"
+                "reference": "0ff58b45e8f15d3151ce3fe80698f7d09c69a699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/mapping/zipball/40cc688787273ff2aff8cbd09ff94323f826f78f",
-                "reference": "40cc688787273ff2aff8cbd09ff94323f826f78f",
+                "url": "https://api.github.com/repos/chimeraphp/mapping/zipball/0ff58b45e8f15d3151ce3fe80698f7d09c69a699",
+                "reference": "0ff58b45e8f15d3151ce3fe80698f7d09c69a699",
                 "shasum": ""
             },
             "require": {
@@ -332,7 +332,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-01T17:03:55+00:00"
+            "time": "2022-10-08T14:23:38+00:00"
         },
         {
             "name": "chimera/routing",
@@ -340,35 +340,35 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing.git",
-                "reference": "8c95b14c2aa47c8788408453862d8db52b11d547"
+                "reference": "5d38e42d463903c815b249d924b3794b5af4930f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/8c95b14c2aa47c8788408453862d8db52b11d547",
-                "reference": "8c95b14c2aa47c8788408453862d8db52b11d547",
+                "url": "https://api.github.com/repos/chimeraphp/routing/zipball/5d38e42d463903c815b249d924b3794b5af4930f",
+                "reference": "5d38e42d463903c815b249d924b3794b5af4930f",
                 "shasum": ""
             },
             "require": {
                 "chimera/foundation": "^1.0.x-dev",
-                "fig/http-message-util": "^1.1",
+                "fig/http-message-util": "^1.1.5",
                 "lcobucci/content-negotiation-middleware": "^3.1",
                 "middlewares/negotiation": "^2.1",
-                "php": "^8.1",
-                "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0",
-                "psr/http-server-handler": "^1.0",
-                "psr/http-server-middleware": "^1.0"
+                "php": "~8.1.0 || ~8.2.0",
+                "psr/http-factory": "^1.0.1",
+                "psr/http-message": "^1.0.1",
+                "psr/http-server-handler": "^1.0.1",
+                "psr/http-server-middleware": "^1.0.1"
             },
             "require-dev": {
-                "infection/infection": "^0.26",
-                "laminas/laminas-diactoros": "^2.8",
-                "lcobucci/coding-standard": "^8.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.4",
-                "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^9.5"
+                "infection/infection": "^0.26.19",
+                "laminas/laminas-diactoros": "^2.24.0",
+                "lcobucci/coding-standard": "^9.0",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.10.7",
+                "phpstan/phpstan-deprecation-rules": "^1.1.3",
+                "phpstan/phpstan-phpunit": "^1.3.10",
+                "phpstan/phpstan-strict-rules": "^1.5.0",
+                "phpunit/phpunit": "^10.0.16"
             },
             "default-branch": true,
             "type": "library",
@@ -402,7 +402,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-15T09:19:52+00:00"
+            "time": "2023-03-19T19:18:58+00:00"
         },
         {
             "name": "chimera/routing-mezzio",
@@ -410,21 +410,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chimeraphp/routing-mezzio.git",
-                "reference": "0b84b19e556cc58b7ec50b5842c1cb48a09c417b"
+                "reference": "413bed42e4589b929511dbba51af33e5591c0f5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chimeraphp/routing-mezzio/zipball/0b84b19e556cc58b7ec50b5842c1cb48a09c417b",
-                "reference": "0b84b19e556cc58b7ec50b5842c1cb48a09c417b",
+                "url": "https://api.github.com/repos/chimeraphp/routing-mezzio/zipball/413bed42e4589b929511dbba51af33e5591c0f5e",
+                "reference": "413bed42e4589b929511dbba51af33e5591c0f5e",
                 "shasum": ""
             },
             "require": {
                 "chimera/foundation": "^1.0.x-dev",
                 "chimera/routing": "^1.0.x-dev",
-                "laminas/laminas-diactoros": "^2.8",
-                "mezzio/mezzio": "^3.10",
-                "mezzio/mezzio-fastroute": "^3.5",
-                "mezzio/mezzio-helpers": "^5.8",
+                "laminas/laminas-diactoros": "^2.19",
+                "mezzio/mezzio": "^3.13",
+                "mezzio/mezzio-fastroute": "^3.7",
+                "mezzio/mezzio-helpers": "^5.11",
                 "mezzio/mezzio-router": "^3.8",
                 "php": "^8.1",
                 "psr/http-message": "^1.0"
@@ -437,12 +437,12 @@
             },
             "require-dev": {
                 "infection/infection": "^0.26",
-                "lcobucci/coding-standard": "^8.0",
-                "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "^1.4",
+                "lcobucci/coding-standard": "^9.0",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.8",
                 "phpstan/phpstan-deprecation-rules": "^1.0",
-                "phpstan/phpstan-phpunit": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpstan/phpstan-strict-rules": "^1.4",
                 "phpunit/phpunit": "^9.5"
             },
             "default-branch": true,
@@ -477,35 +477,38 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-03-15T09:42:49+00:00"
+            "time": "2022-10-24T20:16:26+00:00"
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.13.3",
+            "version": "1.14.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "648b0343343565c4a056bfc8392201385e8d89f0"
+                "reference": "fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/648b0343343565c4a056bfc8392201385e8d89f0",
-                "reference": "648b0343343565c4a056bfc8392201385e8d89f0",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af",
+                "reference": "fb0d71a7393298a7b232cbf4c8b1f73f3ec3d5af",
                 "shasum": ""
             },
             "require": {
-                "doctrine/lexer": "1.*",
+                "doctrine/lexer": "^1 || ^2",
                 "ext-tokenizer": "*",
                 "php": "^7.1 || ^8.0",
                 "psr/cache": "^1 || ^2 || ^3"
             },
             "require-dev": {
                 "doctrine/cache": "^1.11 || ^2.0",
-                "doctrine/coding-standard": "^6.0 || ^8.1",
-                "phpstan/phpstan": "^1.4.10 || ^1.8.0",
-                "phpunit/phpunit": "^7.5 || ^8.0 || ^9.1.5",
-                "symfony/cache": "^4.4 || ^5.2",
+                "doctrine/coding-standard": "^9 || ^10",
+                "phpstan/phpstan": "~1.4.10 || ^1.8.0",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "symfony/cache": "^4.4 || ^5.4 || ^6",
                 "vimeo/psalm": "^4.10"
+            },
+            "suggest": {
+                "php": "PHP 8.0 or higher comes with attributes, a native replacement for annotations"
             },
             "type": "library",
             "autoload": {
@@ -548,37 +551,82 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/annotations/issues",
-                "source": "https://github.com/doctrine/annotations/tree/1.13.3"
+                "source": "https://github.com/doctrine/annotations/tree/1.14.3"
             },
-            "time": "2022-07-02T10:48:51+00:00"
+            "time": "2023-02-01T09:20:38+00:00"
         },
         {
-            "name": "doctrine/lexer",
-            "version": "1.2.3",
+            "name": "doctrine/deprecations",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/lexer.git",
-                "reference": "c268e882d4dbdd85e36e4ad69e02dc284f89d229"
+                "url": "https://github.com/doctrine/deprecations.git",
+                "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/lexer/zipball/c268e882d4dbdd85e36e4ad69e02dc284f89d229",
-                "reference": "c268e882d4dbdd85e36e4ad69e02dc284f89d229",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+                "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^7.1|^8.0"
             },
             "require-dev": {
-                "doctrine/coding-standard": "^9.0",
-                "phpstan/phpstan": "^1.3",
-                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
-                "vimeo/psalm": "^4.11"
+                "doctrine/coding-standard": "^9",
+                "phpunit/phpunit": "^7.5|^8.5|^9.5",
+                "psr/log": "^1|^2|^3"
+            },
+            "suggest": {
+                "psr/log": "Allows logging deprecations via PSR-3 logger implementation"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Common\\Lexer\\": "lib/Doctrine/Common/Lexer"
+                    "Doctrine\\Deprecations\\": "lib/Doctrine/Deprecations"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+            "homepage": "https://www.doctrine-project.org/",
+            "support": {
+                "issues": "https://github.com/doctrine/deprecations/issues",
+                "source": "https://github.com/doctrine/deprecations/tree/v1.0.0"
+            },
+            "time": "2022-05-02T15:47:09+00:00"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "39ab8fcf5a51ce4b85ca97c7a7d033eb12831124"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/lexer/zipball/39ab8fcf5a51ce4b85ca97c7a7d033eb12831124",
+                "reference": "39ab8fcf5a51ce4b85ca97c7a7d033eb12831124",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/deprecations": "^1.0",
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^9 || ^10",
+                "phpstan/phpstan": "^1.3",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+                "psalm/plugin-phpunit": "^0.18.3",
+                "vimeo/psalm": "^4.11 || ^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Lexer\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -610,7 +658,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/lexer/issues",
-                "source": "https://github.com/doctrine/lexer/tree/1.2.3"
+                "source": "https://github.com/doctrine/lexer/tree/2.1.0"
             },
             "funding": [
                 {
@@ -626,7 +674,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-28T11:07:21+00:00"
+            "time": "2022-12-14T08:49:07+00:00"
         },
         {
             "name": "fig/http-message-util",
@@ -686,16 +734,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.19.0",
+            "version": "2.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "b3c7e9262b4fbec801d8df2370cdebb4f5d3a0ae"
+                "reference": "6028af6c3b5ced4d063a680d2483cce67578b902"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/b3c7e9262b4fbec801d8df2370cdebb4f5d3a0ae",
-                "reference": "b3c7e9262b4fbec801d8df2370cdebb4f5d3a0ae",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/6028af6c3b5ced4d063a680d2483cce67578b902",
+                "reference": "6028af6c3b5ced4d063a680d2483cce67578b902",
                 "shasum": ""
             },
             "require": {
@@ -717,10 +765,10 @@
                 "ext-libxml": "*",
                 "http-interop/http-factory-tests": "^0.9.0",
                 "laminas/laminas-coding-standard": "^2.4.0",
-                "php-http/psr7-integration-tests": "^1.1.1",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "vimeo/psalm": "^4.28"
+                "php-http/psr7-integration-tests": "^1.2",
+                "phpunit/phpunit": "^9.5.27",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "vimeo/psalm": "^5.4"
             },
             "type": "library",
             "extra": {
@@ -779,7 +827,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-10T21:28:03+00:00"
+            "time": "2022-12-20T12:22:40+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -845,16 +893,16 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "2.3.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "3c9491473b7decd8f329266a3cb6226a1f90594c"
+                "reference": "7a47834aaad7852816d2ec4fdbb0492163b039ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/3c9491473b7decd8f329266a3cb6226a1f90594c",
-                "reference": "3c9491473b7decd8f329266a3cb6226a1f90594c",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/7a47834aaad7852816d2ec4fdbb0492163b039ae",
+                "reference": "7a47834aaad7852816d2ec4fdbb0492163b039ae",
                 "shasum": ""
             },
             "require": {
@@ -866,9 +914,9 @@
             "require-dev": {
                 "laminas/laminas-coding-standard": "~2.4.0",
                 "laminas/laminas-diactoros": "^2.18",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "vimeo/psalm": "^4.28"
+                "phpunit/phpunit": "^9.5.26",
+                "psalm/plugin-phpunit": "^0.18.0",
+                "vimeo/psalm": "^5.0.0"
             },
             "type": "library",
             "extra": {
@@ -908,20 +956,20 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-10T19:52:02+00:00"
+            "time": "2023-01-05T21:54:03+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
-            "version": "3.15.0",
+            "version": "3.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "63b66bd4b696f024f42616b9d95cdb10e5109c27"
+                "reference": "f4f773641807c7ccee59b758bfe4ac4ba33ecb17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/63b66bd4b696f024f42616b9d95cdb10e5109c27",
-                "reference": "63b66bd4b696f024f42616b9d95cdb10e5109c27",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/f4f773641807c7ccee59b758bfe4ac4ba33ecb17",
+                "reference": "f4f773641807c7ccee59b758bfe4ac4ba33ecb17",
                 "shasum": ""
             },
             "require": {
@@ -932,10 +980,10 @@
             },
             "require-dev": {
                 "laminas/laminas-coding-standard": "^2.4.0",
-                "phpbench/phpbench": "^1.2.6",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "vimeo/psalm": "^4.28"
+                "phpbench/phpbench": "^1.2.7",
+                "phpunit/phpunit": "^9.5.26",
+                "psalm/plugin-phpunit": "^0.18.0",
+                "vimeo/psalm": "^5.0.0"
             },
             "type": "library",
             "autoload": {
@@ -967,7 +1015,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-10T19:10:24+00:00"
+            "time": "2022-12-03T18:48:01+00:00"
         },
         {
             "name": "laminas/laminas-stratigility",
@@ -1338,16 +1386,16 @@
         },
         {
             "name": "mezzio/mezzio",
-            "version": "3.13.0",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio.git",
-                "reference": "a9d6f7d6e45c37180059e5a4731a225ceb80cef1"
+                "reference": "7d2efe760f62d5c43df3a3a86a470fccb00cf5a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio/zipball/a9d6f7d6e45c37180059e5a4731a225ceb80cef1",
-                "reference": "a9d6f7d6e45c37180059e5a4731a225ceb80cef1",
+                "url": "https://api.github.com/repos/mezzio/mezzio/zipball/7d2efe760f62d5c43df3a3a86a470fccb00cf5a3",
+                "reference": "7d2efe760f62d5c43df3a3a86a470fccb00cf5a3",
                 "shasum": ""
             },
             "require": {
@@ -1356,7 +1404,7 @@
                 "laminas/laminas-stratigility": "^3.5",
                 "mezzio/mezzio-router": "^3.7",
                 "mezzio/mezzio-template": "^2.2",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+                "php": "~8.1.0 || ~8.2.0",
                 "psr/container": "^1.0||^2.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0.1",
@@ -1373,17 +1421,16 @@
                 "zendframework/zend-expressive": "*"
             },
             "require-dev": {
-                "filp/whoops": "^2.14.5",
-                "laminas/laminas-coding-standard": "~2.4.0",
-                "laminas/laminas-diactoros": "^2.19",
-                "laminas/laminas-servicemanager": "^3.15",
-                "mezzio/mezzio-aurarouter": "^3.5",
-                "mezzio/mezzio-fastroute": "^3.7",
+                "filp/whoops": "^2.14.6",
+                "laminas/laminas-coding-standard": "~2.5.0",
+                "laminas/laminas-diactoros": "^2.24",
+                "laminas/laminas-servicemanager": "^3.20",
+                "mezzio/mezzio-aurarouter": "^3.6",
+                "mezzio/mezzio-fastroute": "^3.8",
                 "mezzio/mezzio-laminasrouter": "^3.7",
-                "mockery/mockery": "^1.5.1",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17",
-                "vimeo/psalm": "^4.28"
+                "phpunit/phpunit": "^10.0.11",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "vimeo/psalm": "^5.7.7"
             },
             "suggest": {
                 "filp/whoops": "^2.1 to use the Whoops error handler",
@@ -1442,20 +1489,20 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-11T08:04:06+00:00"
+            "time": "2023-02-26T22:42:46+00:00"
         },
         {
             "name": "mezzio/mezzio-fastroute",
-            "version": "3.7.0",
+            "version": "3.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-fastroute.git",
-                "reference": "7f952dfb8c9acf8c59b4f2ff854839b74b092d09"
+                "reference": "fb419052c0ac18fd1286d286de6757eceb9f6897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-fastroute/zipball/7f952dfb8c9acf8c59b4f2ff854839b74b092d09",
-                "reference": "7f952dfb8c9acf8c59b4f2ff854839b74b092d09",
+                "url": "https://api.github.com/repos/mezzio/mezzio-fastroute/zipball/fb419052c0ac18fd1286d286de6757eceb9f6897",
+                "reference": "fb419052c0ac18fd1286d286de6757eceb9f6897",
                 "shasum": ""
             },
             "require": {
@@ -1472,13 +1519,13 @@
                 "zendframework/zend-expressive-fastroute": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~2.4.0",
-                "laminas/laminas-diactoros": "^2.18",
+                "laminas/laminas-coding-standard": "~2.5.0",
+                "laminas/laminas-diactoros": "^2.24",
                 "laminas/laminas-stratigility": "^3.9",
                 "mikey179/vfsstream": "^1.6.11",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "vimeo/psalm": "^4.28"
+                "phpunit/phpunit": "^9.5.27",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "vimeo/psalm": "^5.4"
             },
             "type": "library",
             "extra": {
@@ -1520,20 +1567,20 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-10T21:52:43+00:00"
+            "time": "2023-01-09T23:30:41+00:00"
         },
         {
             "name": "mezzio/mezzio-helpers",
-            "version": "5.11.0",
+            "version": "5.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-helpers.git",
-                "reference": "ac47b19c92e050e53fe9172d3ccf7ab7cf9e9945"
+                "reference": "b2489bb73f531eb32224bb8687858cb9445d8791"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-helpers/zipball/ac47b19c92e050e53fe9172d3ccf7ab7cf9e9945",
-                "reference": "ac47b19c92e050e53fe9172d3ccf7ab7cf9e9945",
+                "url": "https://api.github.com/repos/mezzio/mezzio-helpers/zipball/b2489bb73f531eb32224bb8687858cb9445d8791",
+                "reference": "b2489bb73f531eb32224bb8687858cb9445d8791",
                 "shasum": ""
             },
             "require": {
@@ -1548,11 +1595,11 @@
             },
             "require-dev": {
                 "ext-json": "*",
-                "laminas/laminas-coding-standard": "~2.4.0",
+                "laminas/laminas-coding-standard": "~2.5.0",
                 "laminas/laminas-diactoros": "^2.19",
                 "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "vimeo/psalm": "^4.29"
+                "psalm/plugin-phpunit": "^0.18.0",
+                "vimeo/psalm": "^5.0"
             },
             "suggest": {
                 "ext-json": "If you wish to use the JsonStrategy with BodyParamsMiddleware"
@@ -1596,25 +1643,25 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-12T21:00:46+00:00"
+            "time": "2023-03-14T10:49:28+00:00"
         },
         {
             "name": "mezzio/mezzio-router",
-            "version": "3.9.0",
+            "version": "3.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mezzio/mezzio-router.git",
-                "reference": "5b03ab8ef9ae8323a9093d5b9d79a69a3733968f"
+                "reference": "d8fa434e06e3694c06ecef41f50f05f56ddf6084"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mezzio/mezzio-router/zipball/5b03ab8ef9ae8323a9093d5b9d79a69a3733968f",
-                "reference": "5b03ab8ef9ae8323a9093d5b9d79a69a3733968f",
+                "url": "https://api.github.com/repos/mezzio/mezzio-router/zipball/d8fa434e06e3694c06ecef41f50f05f56ddf6084",
+                "reference": "d8fa434e06e3694c06ecef41f50f05f56ddf6084",
                 "shasum": ""
             },
             "require": {
                 "fig/http-message-util": "^1.1.2",
-                "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+                "php": "~8.1.0 || ~8.2.0",
                 "psr/container": "^1.0 || ^2.0",
                 "psr/http-factory": "^1.0",
                 "psr/http-message": "^1.0.1",
@@ -1626,12 +1673,12 @@
                 "zendframework/zend-expressive-router": "*"
             },
             "require-dev": {
-                "laminas/laminas-coding-standard": "~2.4.0",
-                "laminas/laminas-diactoros": "^2.18",
-                "laminas/laminas-stratigility": "^3.8",
-                "phpunit/phpunit": "^9.5.25",
-                "psalm/plugin-phpunit": "^0.17.0",
-                "vimeo/psalm": "^4.28"
+                "laminas/laminas-coding-standard": "~2.5.0",
+                "laminas/laminas-diactoros": "^2.24",
+                "laminas/laminas-stratigility": "^3.9.0",
+                "phpunit/phpunit": "^10.0.12",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "vimeo/psalm": "^5.7.7"
             },
             "suggest": {
                 "mezzio/mezzio-aurarouter": "^3.0 to use the Aura.Router routing adapter",
@@ -1677,7 +1724,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-10-10T19:40:00+00:00"
+            "time": "2023-03-02T11:42:36+00:00"
         },
         {
             "name": "mezzio/mezzio-template",
@@ -2443,42 +2490,52 @@
         },
         {
             "name": "ramsey/collection",
-            "version": "1.2.2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/collection.git",
-                "reference": "cccc74ee5e328031b15640b51056ee8d3bb66c0a"
+                "reference": "a4b48764bfbb8f3a6a4d1aeb1a35bb5e9ecac4a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/collection/zipball/cccc74ee5e328031b15640b51056ee8d3bb66c0a",
-                "reference": "cccc74ee5e328031b15640b51056ee8d3bb66c0a",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/a4b48764bfbb8f3a6a4d1aeb1a35bb5e9ecac4a5",
+                "reference": "a4b48764bfbb8f3a6a4d1aeb1a35bb5e9ecac4a5",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.3 || ^8",
-                "symfony/polyfill-php81": "^1.23"
+                "php": "^8.1"
             },
             "require-dev": {
-                "captainhook/captainhook": "^5.3",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "ergebnis/composer-normalize": "^2.6",
-                "fakerphp/faker": "^1.5",
-                "hamcrest/hamcrest-php": "^2",
-                "jangregor/phpstan-prophecy": "^0.8",
-                "mockery/mockery": "^1.3",
+                "captainhook/plugin-composer": "^5.3",
+                "ergebnis/composer-normalize": "^2.28.3",
+                "fakerphp/faker": "^1.21",
+                "hamcrest/hamcrest-php": "^2.0",
+                "jangregor/phpstan-prophecy": "^1.0",
+                "mockery/mockery": "^1.5",
+                "php-parallel-lint/php-console-highlighter": "^1.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "phpcsstandards/phpcsutils": "^1.0.0-rc1",
                 "phpspec/prophecy-phpunit": "^2.0",
-                "phpstan/extension-installer": "^1",
-                "phpstan/phpstan": "^0.12.32",
-                "phpstan/phpstan-mockery": "^0.12.5",
-                "phpstan/phpstan-phpunit": "^0.12.11",
-                "phpunit/phpunit": "^8.5 || ^9",
-                "psy/psysh": "^0.10.4",
-                "slevomat/coding-standard": "^6.3",
-                "squizlabs/php_codesniffer": "^3.5",
-                "vimeo/psalm": "^4.4"
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan-mockery": "^1.1",
+                "phpstan/phpstan-phpunit": "^1.3",
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-mockery": "^1.1",
+                "psalm/plugin-phpunit": "^0.18.4",
+                "ramsey/coding-standard": "^2.0.3",
+                "ramsey/conventional-commits": "^1.3",
+                "vimeo/psalm": "^5.4"
             },
             "type": "library",
+            "extra": {
+                "captainhook": {
+                    "force-install": true
+                },
+                "ramsey/conventional-commits": {
+                    "configFile": "conventional-commits.json"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Ramsey\\Collection\\": "src/"
@@ -2506,7 +2563,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
-                "source": "https://github.com/ramsey/collection/tree/1.2.2"
+                "source": "https://github.com/ramsey/collection/tree/2.0.0"
             },
             "funding": [
                 {
@@ -2518,28 +2575,27 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-10-10T03:01:02+00:00"
+            "time": "2022-12-31T21:50:55+00:00"
         },
         {
             "name": "ramsey/uuid",
-            "version": "4.5.1",
+            "version": "4.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "a161a26d917604dc6d3aa25100fddf2556e9f35d"
+                "reference": "433b2014e3979047db08a17a205f410ba3869cf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/a161a26d917604dc6d3aa25100fddf2556e9f35d",
-                "reference": "a161a26d917604dc6d3aa25100fddf2556e9f35d",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/433b2014e3979047db08a17a205f410ba3869cf2",
+                "reference": "433b2014e3979047db08a17a205f410ba3869cf2",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "^0.8.8 || ^0.9 || ^0.10",
-                "ext-ctype": "*",
                 "ext-json": "*",
                 "php": "^8.0",
-                "ramsey/collection": "^1.0"
+                "ramsey/collection": "^1.2 || ^2.0"
             },
             "replace": {
                 "rhumsaa/uuid": "self.version"
@@ -2568,7 +2624,6 @@
             },
             "suggest": {
                 "ext-bcmath": "Enables faster math with arbitrary-precision integers using BCMath.",
-                "ext-ctype": "Enables faster processing of character classification using ctype functions.",
                 "ext-gmp": "Enables faster math with arbitrary-precision integers using GMP.",
                 "ext-uuid": "Enables the use of PeclUuidTimeGenerator and PeclUuidRandomGenerator.",
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
@@ -2600,7 +2655,7 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.5.1"
+                "source": "https://github.com/ramsey/uuid/tree/4.7.3"
             },
             "funding": [
                 {
@@ -2612,7 +2667,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-16T03:22:46+00:00"
+            "time": "2023-01-12T18:13:24+00:00"
         },
         {
             "name": "symfony/cache",
@@ -3294,85 +3349,6 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.27.0"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-11-03T14:55:06+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php81",
-            "version": "v1.27.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php81.git",
-                "reference": "707403074c8ea6e2edaf8794b0157a0bfa52157a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/707403074c8ea6e2edaf8794b0157a0bfa52157a",
-                "reference": "707403074c8ea6e2edaf8794b0157a0bfa52157a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.27-dev"
-                },
-                "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php81\\": ""
-                },
-                "classmap": [
-                    "Resources/stubs"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 8.1+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "support": {
-                "source": "https://github.com/symfony/polyfill-php81/tree/v1.27.0"
             },
             "funding": [
                 {
