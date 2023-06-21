@@ -19,7 +19,7 @@
         "lcobucci/di-builder": "^7.3.1",
         "lcobucci/error-handling-middleware": "^1.4.0",
         "middlewares/response-time": "^2.0.1",
-        "monolog/monolog": "^3.3.1"
+        "monolog/monolog": "^3.4.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest"
